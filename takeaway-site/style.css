@@ -1,0 +1,18 @@
+/* 基础样式 */
+body { font-family: "Microsoft YaHei", sans-serif; }
+
+.logo { height: 40px; }
+
+.shop-logo { width: 50px; height: 50px; }
+
+.static-map {
+    width: 90%;
+    max-width: 1000px;
+    border: 2px solid #dee2e6;
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+    .navbar .container { flex-direction: column; }
+    .shop-logo { width: 40px; height: 40px; }
+}
